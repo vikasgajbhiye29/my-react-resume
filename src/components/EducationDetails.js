@@ -1,6 +1,7 @@
 import React from 'react'
 import { HiOutlineViewfinderCircle } from "react-icons/hi2";
-import dilpoma from './image/dilpoma.jpg'
+import BE from './image/BE.jpeg'
+import poly from './image/poly.jpeg'
 
 
 function EducationDetails() {
@@ -23,28 +24,28 @@ function EducationDetails() {
                 <div className='col'><h6>University</h6></div>
                 <div className='col'><h6>Passout</h6></div>
                 <div className='col'><h6>CGPA/Per</h6></div>
-                <div className='col'><h6>Marksheet</h6></div>
+                <div className='col'><h6>Certificate</h6></div>
               </div>
               <hr></hr>
               <div className="row text-center">
-                <div className='col' data-bs-toggle="tooltip" data-bs-placement="bottom" title="Electrical Engineering"><p style={{cursor:"pointer"}}>BE</p></div>
+                <div className='col' data-bs-toggle="tooltip" data-bs-placement="bottom" title="Electrical Engineering "><p style={{cursor:"pointer"}}>BE</p></div>
                 <div className='col' data-bs-toggle="tooltip" data-bs-placement="bottom" title="G.H.Raisoni College Of Engineering And Management Amravati"><p style={{cursor:"pointer"}}>GHRCEMA</p></div>
                 <div className='col' data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sant Gadge Baba Amravati University Amravati"><p style={{cursor:"pointer"}}>SGBAUA</p></div>
                 <div className='col' ><p style={{cursor:"pointer"}}>2017</p></div>
                 <div className='col'data-bs-toggle="tooltip" data-bs-placement="bottom" title="CGPA"><p style={{cursor:"pointer"}}>6.56</p></div>
                 {/* <!-- Button trigger modal --> */}
-                <div className='col'><button class="btn btn-success" data-bs-placement="bottom" title="Click here for Marksheet" data-bs-toggle="modal" data-bs-target="#exampleModal">< HiOutlineViewfinderCircle /></button></div>
+                <div className='col'><button class="btn btn-success" data-bs-placement="bottom" title="Click here for Certificate" data-bs-toggle="modal" data-bs-target="#exampleModal">< HiOutlineViewfinderCircle /></button></div>
               </div>
               <hr></hr>
               <div className="row text-center">
-                <div className='col'>Diploma</div>
-                <div className='col'>PRPPIPA</div>
-                <div className='col'>MSBTE</div>
-                <div className='col'>2013</div>
-                <div className='col'>64.18 %</div>
-                <div className='col'><HiOutlineViewfinderCircle /></div>
+              <div className='col' data-bs-toggle="tooltip" data-bs-placement="bottom" title="Electrical Engineering"><p style={{cursor:"pointer"}}>Diploma</p></div>
+                <div className='col' data-bs-toggle="tooltip" data-bs-placement="bottom" title="P.R.Pote(patil) Institute Of Ploytechnic Amravati"><p style={{cursor:"pointer"}}>PRPIPA</p></div>
+                <div className='col' data-bs-toggle="tooltip" data-bs-placement="bottom" title="Maharashtra State Board Technical Education"><p style={{cursor:"pointer"}}>MSBTE</p></div>
+                <div className='col' ><p style={{cursor:"pointer"}}>2013</p></div>
+                <div className='col'data-bs-toggle="tooltip" data-bs-placement="bottom" title="Percentage"><p style={{cursor:"pointer"}}>64.18</p></div>
+                {/* <!-- Button trigger modal --> */}
+                <div className='col'><button class="btn btn-success" data-bs-placement="bottom" title="Click here for Certificate" data-bs-toggle="modal" data-bs-target="#exampleModalForDiploma">< HiOutlineViewfinderCircle /></button></div>
               </div>
-              <hr></hr>
             </div>
           </div>
         </div>
@@ -54,12 +55,30 @@ function EducationDetails() {
           <div class="modal-dialog"style={{color:"black"}}>
             <div class="modal-content">
               <div class="modal-header">
-                <h5  class="modal-title" id="exampleModalLabel">Graduation_Marksheet</h5>
+                <h5  class="modal-title" id="exampleModalLabel">Graduation_Certificate</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
                  <div className='container text-center'>
-                    <img style={{width:"100%", height:"100%"}} src={dilpoma} alt='network error' />
+                    <img style={{width:"400px", height:"500px"}} src={BE} alt='network error' />
+                 </div>
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <!-- Modal for diploma --> */}
+      <div class="modal fade" id="exampleModalForDiploma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog"style={{color:"black"}}>
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5  class="modal-title" id="exampleModalLabel">Diploma_Certificate</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                 <div className='container text-center'>
+                    <img style={{width:"400px", height:"500px"}} src={poly} alt='network error' />
                  </div>
               </div>
               <div class="modal-footer">
