@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-react-resume/static/css/main.1658c198.css",
+    "main.js": "/my-react-resume/static/js/main.b65ad18d.js",
+    "static/media/dilpoma.jpg": "/my-react-resume/static/media/dilpoma.5c9a63931f38032a8b80.jpg",
+    "static/media/profile.jpg": "/my-react-resume/static/media/profile.f9642b8dd3db7bbc7313.jpg",
+    "index.html": "/my-react-resume/index.html",
+    "main.1658c198.css.map": "/my-react-resume/static/css/main.1658c198.css.map",
+    "main.b65ad18d.js.map": "/my-react-resume/static/js/main.b65ad18d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1658c198.css",
+    "static/js/main.b65ad18d.js"
+  ]
+}
