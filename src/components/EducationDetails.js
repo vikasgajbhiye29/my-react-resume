@@ -59,9 +59,9 @@ function EducationDetails() {
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                 <div className='container text-center'>
+                <div className='container text-center'>
                     <img style={{width:"400px", height:"500px"}} src={BE} alt='network error' />
-                 </div>
+                </div>
               </div>
               <div class="modal-footer">
               </div>
