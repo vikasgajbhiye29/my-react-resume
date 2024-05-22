@@ -1,6 +1,7 @@
 
 import './App.css';
 import EducationDetails from './components/EducationDetails';
+import Footer from './components/Footer';
 import ProfileSummery from './components/ProfileSummery';
 import ResumeHeader from './components/ResumeHeader';
 import Skill from './components/Skill';
@@ -14,6 +15,7 @@ function App() {
         <EducationDetails />
         <WorkExperiance />
         <Skill />
+        <Footer />
      
         
     </div>

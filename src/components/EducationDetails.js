@@ -7,12 +7,11 @@ import poly from './image/poly.jpeg'
 function EducationDetails() {
   
   return (
-    <div className='container'>
-
-      <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item" style={{backgroundColor:"darkgray", color:"black"}}>
+    <div className='container'  >
+      <div class="accordion accordion-flush" id="accordionFlushExample" >
+          <div class="accordion-item" style={{backgroundColor:"wheat", color:"black",}}>
             <h2 class="accordion-header" id="flush-headingOne" >
-              <button style={{backgroundColor:"gray"}} class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <button style={{backgroundColor:"goldenrod"}} class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                  <h5>Education Details</h5>
               </button>
             </h2>
@@ -34,7 +33,7 @@ function EducationDetails() {
                 <div className='col' ><p style={{cursor:"pointer"}}>2017</p></div>
                 <div className='col'data-bs-toggle="tooltip" data-bs-placement="bottom" title="CGPA"><p style={{cursor:"pointer"}}>6.56</p></div>
                 {/* <!-- Button trigger modal --> */}
-                <div className='col'><button class="btn btn-success" data-bs-placement="bottom" title="Click here for Certificate" data-bs-toggle="modal" data-bs-target="#exampleModal">< HiOutlineViewfinderCircle /></button></div>
+                <div className='col'><button  style={{backgroundColor:"blueviolet", color:"white", marginTop:"8px"}} class="btn" data-bs-placement="bottom" title="Click here for Certificate" data-bs-toggle="modal" data-bs-target="#exampleModal">< HiOutlineViewfinderCircle /></button></div>
               </div>
               <hr></hr>
               <div className="row text-center">
@@ -44,7 +43,7 @@ function EducationDetails() {
                 <div className='col' ><p style={{cursor:"pointer"}}>2013</p></div>
                 <div className='col'data-bs-toggle="tooltip" data-bs-placement="bottom" title="Percentage"><p style={{cursor:"pointer"}}>64.18</p></div>
                 {/* <!-- Button trigger modal --> */}
-                <div className='col'><button class="btn btn-success" data-bs-placement="bottom" title="Click here for Certificate" data-bs-toggle="modal" data-bs-target="#exampleModalForDiploma">< HiOutlineViewfinderCircle /></button></div>
+                <div className='col'><button  style={{backgroundColor:"blueviolet", color:"white", marginTop:"8px"}} class="btn" data-bs-placement="bottom" title="Click here for Certificate" data-bs-toggle="modal" data-bs-target="#exampleModalForDiploma">< HiOutlineViewfinderCircle /></button></div>
               </div>
             </div>
           </div>
@@ -59,11 +58,11 @@ function EducationDetails() {
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <div className='container text-center'>
-                    <img style={{width:"400px", height:"500px"}} src={BE} alt='network error' />
+                <div className='container'>
+                    <div className='row'>
+                      <img src={BE} alt='network error' />
+                    </div>
                 </div>
-              </div>
-              <div class="modal-footer">
               </div>
             </div>
           </div>
@@ -77,11 +76,11 @@ function EducationDetails() {
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                 <div className='container text-center'>
-                    <img style={{width:"400px", height:"500px"}} src={poly} alt='network error' />
-                 </div>
-              </div>
-              <div class="modal-footer">
+                <div className='container'>
+                    <div className='row'>
+                      <img src={poly} alt='network error' />
+                    </div>
+                </div>
               </div>
             </div>
           </div>
