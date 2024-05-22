@@ -42,7 +42,7 @@ function Skill() {
                                 <h3 data-bs-dismiss="modal" aria-label="Close"><IoCloseCircleOutline /> </h3>
                             </div>
                             <div className="modal-body" style={{ backgroundColor:"black" ,color:"whitesmoke"}}>
-                            <div className="d-inline-flex p-2 ">
+                            <div className="d-inline-flex ">
                                         <h5>English</h5>
                                         <div class="form-check form-check-inline" style={{marginLeft:"20px"}}>
                                             <input class="form-check-input" type="checkbox"  id="flexRadioCheckedDisabled1" disabled /> 
@@ -57,7 +57,7 @@ function Skill() {
                                             <label class="form-check-label" for="flexRadioCheckedDisabled3">Professional</label>
                                         </div>
                             </div>
-                            <div className="d-inline-flex p-2 ">
+                            <div className="d-inline-flex ">
                                         <h5>Hindi   </h5>
                                         <div class="form-check form-check-inline" style={{marginLeft:"20px"}}>
                                             <input class="form-check-input" type="checkbox"  id="flexRadioCheckedDisabled1" disabled /> 
@@ -72,7 +72,7 @@ function Skill() {
                                             <label class="form-check-label" for="flexRadioCheckedDisabled3">Professional</label>
                                         </div>
                             </div> 
-                            <div className="d-inline-flex p-2 ">
+                            <div className="d-inline-flex ">
                                         <h5>Marathi</h5>
                                         <div class="form-check form-check-inline" style={{marginLeft:"20px"}}>
                                             <input class="form-check-input" type="checkbox"  id="flexRadioCheckedDisabled1" disabled /> 

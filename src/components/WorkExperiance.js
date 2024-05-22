@@ -1,62 +1,49 @@
 import React from 'react'
 import vb from'./image/vb.jpeg'
-import deltaimg from './image/delta.png'
+import delta from './image/delta.png'
 import { VscActivateBreakpoints } from "react-icons/vsc";
 
 function WorkExperiance() {
   return (
-    <div className='container my-3' style={{color:"black", backgroundColor:"gray", borderRadius:"10px", marginBottom:"3px"}}>
-        <div className='row d-flex p-2'><h4 className='text-center'>Work Experiance</h4></div>
-        <div className='row' >
-            
-            <div className="col-sm-6" >
-                <div className="card " style={{maxWidth: "540px", margin:"40px", backgroundColor:"black" , color:"whitesmoke", borderRadius:"15px"}}>
-                    <div className="row" >
-                        <div className="col-md-4">
-                            <img style={{paddingTop:"12%", paddingLeft:"30px"}} src={vb} className="img-fluid rounded-start" alt="network error"/>
+    <div className='container my-3' style={{borderRadius:"10px", marginBottom:"3px"}}>
+        <div className='row text-center p-2'><h4 >Work Experiance</h4></div>
+        <div className='row align-items-center' > 
+            <div className="col m-4" style={{borderLeft:"25px solid blueviolet", borderRadius:"15px", borderRight:"5px solid blueviolet", borderBottom:"1px solid blueviolet", borderTop:"1px solid blueviolet",}}>
+                    <div className="row align-items-center" >
+                        <div className="col p-2" >
+                            <img style={{ border:"2px solid gray", borderRadius:"10px"}} src={vb} alt="network error"/>
                         </div>
-                        <div className="col-md-8" style={{cursor:"pointer"}}>
-                            <div className="card-header" data-bs-toggle="tooltip" data-bs-placement="bottom" title="VibrantMinds Technologies Pvt Ltd">
-                                <h5>VMT</h5>
-                            </div>
-                            <div className="card-body" >
-                                <h5 className="card-title">Software Engineer</h5>
-                                <p className="card-text">07/2023 To Present</p>
-                                <p className="card-text">PUNE</p>
-                                <p className="card-text"><small className="text-muted">Project Domain - E-Com</small></p>
-                            </div>
+                        <div className="col" style={{cursor:"pointer", marginTop:"10px"}}>
+                                <h5 data-bs-toggle="tooltip" data-bs-placement="bottom" title="VibrantMinds Technologies Pvt Ltd">VMT</h5>
+                                <h5>Software Engineer</h5>
+                                <p >07/2023 To Present</p>
+                                <p>PUNE</p>
+                                <p><small className="text-muted">Project Domain - E-Com</small></p>
                         </div>
                     </div>
-                </div>
+               
             </div>
-            <div className="col-sm-6">
-                <div className="card mb-3" style={{maxWidth: "540px", margin:"40px", backgroundColor:"black" , color:"whitesmoke", borderRadius:"15px"}}>
-                    <div className="row" >
-                        <div className="col-md-4">
-                            <img style={{paddingTop:"40%", paddingLeft:"30px"}} src={deltaimg} className="img-fluid rounded-start" alt="network error"/>
+            <div className="col m-4" style={{borderLeft:"25px solid blueviolet", borderRadius:"15px", borderRight:"5px solid blueviolet", borderBottom:"1px solid blueviolet", borderTop:"1px solid blueviolet",}}>
+                    <div className="row align-items-center" >
+                        <div className="col p-2" >
+                            <img style={{border:"2px solid gray", borderRadius:"10px"}} src={delta} alt="network error"/>
                         </div>
-                        <div className="col-md-8" style={{cursor:"pointer"}}>
-                            <div className="card-header" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Delta Technology Management And Services">
-                                <h5>DTMS</h5>
-                            </div>
-                            <div className="card-body" >
-                                <h5 className="card-title">Consultant</h5>
-                                <p className="card-text">10/2022 To 06/2023</p>
-                                <p className="card-text">MUMBAI</p>
-                                <p className="card-text"><small className="text-muted">Project Domain - Finance</small></p>
-                            </div>
-                            
+                        <div className="col" style={{cursor:"pointer", marginTop:"10px"}}>
+                                <h5 data-bs-toggle="tooltip" data-bs-placement="bottom" title="Delta Technology Management And Services">DTMS</h5>
+                                <h5>Consultant</h5>
+                                <p >10/2022 To 06/2023</p>
+                                <p>MUMBAI</p>
+                                <p><small className="text-muted">Project Domain - Finanace</small></p>
                         </div>
                     </div>
-                </div>
             </div>
             
         </div>
         <div className='container'>
             <div class="accordion accordion-flush" id="accordionForRespons">
-                <div class="accordion-item" style={{backgroundColor:"darkgray", color:"black"}}>
+                <div class="accordion-item" style={{backgroundColor:"wheat", color:"black"}}>
                     <h2 class="accordion-header" id="flush-headingOne" >
-                        <button style={{backgroundColor:"gray"}} class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseForRespons" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <button style={{backgroundColor:"goldenrod"}} class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseForRespons" aria-expanded="false" aria-controls="flush-collapseOne">
                         <h5>Responsibilities</h5>
                         </button>
                     </h2>
@@ -64,7 +51,7 @@ function WorkExperiance() {
                     <div class="accordion-body">
                         <div className="row ">
                             <div className='container'> 
-                               <div className='row'>
+                                <div className='row'>
                                     <div className='col-1' style={{paddingLeft:"4%", color:"blue"}}><VscActivateBreakpoints /> </div>
                                     <div className='col-11'>
                                         <h6>
@@ -112,9 +99,7 @@ function WorkExperiance() {
                                         Interact with Management to understand the requirements and clarifying the doubts.
                                         </h6>
                                     </div>
-
-                               </div>
-
+                            </div>
                             </div>
                         </div>    
                     </div>
@@ -122,7 +107,6 @@ function WorkExperiance() {
                 </div>
             </div>
     </div>
-        <hr></hr>
     </div>
   )
 }
