@@ -4,7 +4,6 @@ import { FaLaptopCode } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineWifiCalling3 } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
-import { MdDateRange } from "react-icons/md";
 import { PiUserFocusLight } from "react-icons/pi";
 
 
@@ -18,7 +17,7 @@ function ResumeHeader() {
                         <h2 style={{color:"black", cursor:"pointer"}}>Vikas Suresh Gajbhiye <strong style={{color:"white"}}><PiUserFocusLight /></strong></h2>
                         <h4>Software Engineer <strong style={{color:"black"}}><FaLaptopCode /></strong> </h4> 
                         
-                        <p>A highly motivated and detail-oriented software engineer having 2+ years of experience in software development
+                        <p>A highly motivated and detail-oriented software engineer having 2 years of experience in software development
                         and coding applications and ability to design and develop efficient and reliable innovative solutions.</p>
                     </div>
                     <div className="col col-auto ">
@@ -30,8 +29,7 @@ function ResumeHeader() {
            <div className='row align-items-center' style={{color:"black"}}>
                 <div className='col text-center' ><h6 ><MdOutlineEmail /> gajbhiye.vikas29@gmail.com</h6></div>
                 <div className='col text-center' ><h6 ><MdOutlineWifiCalling3 /> 7709007992</h6></div>
-                <div className='col text-center' ><h6> <CiLocationOn /> Pune, Maharashtra,India</h6></div>
-                <div className='col text-center' ><h6><MdDateRange /> DOB : 29/11/1994</h6></div>    
+                <div className='col text-center' ><h6> <CiLocationOn /> Pune, Maharashtra,India</h6></div>   
             </div>
            </div>
     </div>

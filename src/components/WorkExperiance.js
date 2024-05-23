@@ -40,15 +40,15 @@ function WorkExperiance() {
             
         </div>
         <div className='container'>
-            <div class="accordion accordion-flush" id="accordionForRespons">
-                <div class="accordion-item" style={{backgroundColor:"wheat", color:"black"}}>
-                    <h2 class="accordion-header" id="flush-headingOne" >
-                        <button style={{backgroundColor:"goldenrod"}} class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseForRespons" aria-expanded="false" aria-controls="flush-collapseOne">
+            <div className="accordion accordion-flush" id="accordionForRespons">
+                <div className="accordion-item" style={{backgroundColor:"wheat", color:"black"}}>
+                    <h2 className="accordion-header" id="flush-headingOne" >
+                        <button style={{backgroundColor:"goldenrod"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseForRespons" aria-expanded="false" aria-controls="flush-collapseOne">
                         <h5>Responsibilities</h5>
                         </button>
                     </h2>
-                <div id="flush-collapseForRespons" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionForSummery">
-                    <div class="accordion-body">
+                <div id="flush-collapseForRespons" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionForSummery">
+                    <div className="accordion-body">
                         <div className="row ">
                             <div className='container'> 
                                 <div className='row'>

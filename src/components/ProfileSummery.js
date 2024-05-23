@@ -3,15 +3,15 @@ import React from 'react'
 function ProfileSummery() {
   return (
     <div className='container my-2'>
-            <div class="accordion accordion-flush" id="accordionForSummery">
-                <div class="accordion-item" style={{backgroundColor:"wheat", color:"black"}}>
-                    <h2 class="accordion-header" id="flush-headingOne" >
-                        <button style={{backgroundColor:"goldenrod"}} class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseForSummery" aria-expanded="false" aria-controls="flush-collapseOne">
+            <div className="accordion accordion-flush" id="accordionForSummery">
+                <div className="accordion-item" style={{backgroundColor:"wheat", color:"black"}}>
+                    <h2 className="accordion-header" id="flush-headingOne" >
+                        <button style={{backgroundColor:"goldenrod"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseForSummery" aria-expanded="false" aria-controls="flush-collapseOne">
                         <h5>Profile Summery</h5>
                         </button>
                     </h2>
-                <div id="flush-collapseForSummery" class="accordion-collapse collapse"  aria-labelledby="flush-headingOne" data-bs-parent="#accordionForSummery">
-                    <div class="accordion-body">
+                <div id="flush-collapseForSummery" className="accordion-collapse collapse"  aria-labelledby="flush-headingOne" data-bs-parent="#accordionForSummery">
+                    <div className="accordion-body">
                         <div className="row ">
                             <div className='col'><p className='container' style={{textAlign:"justify"}}>Having 2 Years of IT experience and technical
                                                     proficiency in OOP, Collections Framework,

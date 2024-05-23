@@ -16,9 +16,9 @@ function Footer() {
                 <div className='col m-3'>
                                 <h4><strong style={{color:"black"}}>Social</strong><span style={{color:"blue"}} > Links</span></h4>
                                 <div className='row'>
-                                    <div className='col' style={{ marginTop:"10px"}}><a className=' p-3' style={{color:"red"}}  href='https://www.instagram.com/vikasgajbhiye29/' target='blank'> <GrInstagram /> </a></div>
+                                    <div className='col' style={{ marginTop:"10px"}}><a className=' p-3' style={{color:"red"}}  href='https://www.instagram.com/vikasgajbhiye29' target='blank'> <GrInstagram /> </a></div>
                                     <div className='col' style={{ marginTop:"10px"}}><a className=' p-3' style={{color:"black"}} href='https://github.com/vikasgajbhiye29/my-react-resume' target='blank'><FaGithub /></a></div>
-                                    <div className='col' style={{ marginTop:"10px"}}><a className=' p-3' style={{color:"blue"}} href='https://www.linkedin.com/in/vikas-gajbhiye-b8b5a1246/' target='blank'><GrLinkedinOption /></a></div>
+                                    <div className='col' style={{ marginTop:"10px"}}><a className=' p-3' style={{color:"blue"}} href='https://www.linkedin.com/in/vikas-gajbhiye-b8b5a1246' target='blank'><GrLinkedinOption /></a></div>
                                     <div className='col' style={{ marginTop:"10px"}}><a className=' p-3' style={{color:"red"}} href='/' target='blank'> <GrYoutube /></a>  </div>
                                 </div>
                 </div>
